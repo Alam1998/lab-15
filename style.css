@@ -84,6 +84,7 @@ div#second {
   width: 1205px;
   background-color: #3D3D3D;
   text-align: center;
+  float: center;
 }
 
 div#third {
