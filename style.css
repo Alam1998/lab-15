@@ -7,15 +7,36 @@ body, html {
 }
 
 
-/* use Major Mono Display for all headings h1—h6 */
-h1, h2, h3, h4, h5, h6 {
+/* use Pattaya for all headings */
+h1, h3, h4, h5, h6, p {
   font-family: 'Pattaya', monospace;
     /* font-family rule copied from Google Fonts */
 }
 
+h2 {
+  font-family: monospace;
+}
+
+h4 {
+  font-family: 'Pattaya';
+  text-align: center;
+  font-size: 25px;
+}
+h5 {
+  font-family: monospace;
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  color: white;
+  font-weight: 200;
+  font-size: 25px;
+}
+
 .hero-image {
   background-image: url("black.v01.jpg");
-  height: 30%;
+  height: 20%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +58,7 @@ div.stuff {
   /* height: fit-content; */
   word-wrap: break-word;
   overflow: auto;
-  text-align: center;
+  text-align: left;
   border-width: 5px;
   border-style: ridge;
   border-color: silver;
@@ -51,21 +72,36 @@ div#first {
 }
 
 div#second {
-  background-color: #7B7672;
+  width: 1205px;
+  background-color: #3D3D3D;
+  text-align: center;
 }
 
 div#third {
-  background-color: #A6654E;
+  width: 1205px;
+  background-color: #FFFFFF;
+  text-align: center;
+  float: center;
 }
 
 div#fourth {
-  background-color: #D99982;
+  width: 1165px;
+  background-color: #3D3D3D;
+  text-align: center;
 }
 
 div#fifth {
   background-color: #594336;
+  text-align: center;
 }
 
+div#sixth {
+  width: 1000px;
+  background-color: #FFFFFF;
+  text-align: right;
+  float: right;
+  border-style: none;
+}
 
 
 
@@ -79,7 +115,7 @@ div#fifth {
   float: left;
   display: block;
   color: #000000;
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Pattaya', monospace;
     /* font-family rule copied from Google Fonts */
   text-align: center;
   padding: 14px;
